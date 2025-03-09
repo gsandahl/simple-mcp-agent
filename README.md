@@ -15,6 +15,15 @@ This agent connects to MCP-compatible servers, discovers available tools, and us
 - Uses AI to determine when and how to use tools based on user input
 - Generates natural language responses incorporating tool results
 - Provides source references when applicable
+- Enhanced terminal output using Rich library
+
+## Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Configuration
 
@@ -63,4 +72,11 @@ Once running, you can interact with the agent through the command line:
 3. If tools are used, the agent will incorporate their results in the response
 4. Source references will be displayed when available
 5. Type 'quit', 'exit', or 'q' to end the session
+
+## Project Structure
+
+- `cli.py`: Command-line interface with Rich formatting
+- `agent.py`: Core agent implementation
+- `schemas.py`: Data models/schemas used by the application
+- `requirements.txt`: Dependencies for the project
 

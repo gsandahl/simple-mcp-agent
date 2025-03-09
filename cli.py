@@ -8,6 +8,7 @@ from rich.markdown import Markdown
 
 # Add parent directory to path for script execution
 from agent import MCPAgent, bake_response
+# If needed: from schemas import BakedResponse, Tool, ToolResult
 
 async def main():
     # Initialize Rich console

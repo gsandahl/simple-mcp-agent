@@ -4,7 +4,7 @@ from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
 import subprocess
 import os
-from models import Tool, ToolSelection, ToolResult, BakedResponse
+from schemas import Tool, ToolSelection, ToolResult, BakedResponse
 
 class MCPAgent:
     def __init__(self):
