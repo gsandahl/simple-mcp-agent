@@ -1,0 +1,12 @@
+# Core dependencies
+aiohttp>=3.8.0
+asyncio>=3.4.3
+docker>=6.0.0
+pydantic>=2.0.0
+rich>=13.0.0
+
+# Opper SDK for AI reasoning
+opper-sdk>=0.1.0
+
+# Optional dependencies
+python-dotenv>=1.0.0  # For loading environment variables from .env files 
