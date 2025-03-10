@@ -1,6 +1,6 @@
 # Simple MCP Agent
 
-A command-line agent that uses the Machine Cognition Protocol (MCP) to access external tools and provide helpful responses.
+A command-line agent that uses the Model Context Protocol (MCP) to access external tools and provide helpful responses.
 
 ## Overview
 
